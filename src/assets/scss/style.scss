@@ -1,0 +1,46 @@
+@import "vars";
+@import "vendor/reset";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    
+    background-color: $white;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.4rem;
+    color: #000;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Blocks */
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/container";
+@import "blocks/hero-content";
+@import "blocks/title";
+@import "blocks/category";
+@import "blocks/destinations";
+@import "blocks/book";
+@import "blocks/testimonals";
+@import "blocks/subscribe";
+@import "blocks/footer";
+
+
+
+
+
+

@@ -1,0 +1,124 @@
+.subscribe {
+    background: rgba(223, 215, 249, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 129px 20px 20px 20px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.3rem;
+    line-height: 5.4rem;
+
+    text-align: center;
+
+    color: #5E6282;
+
+    padding: 7.9rem 15.5rem;
+
+    position: relative;
+
+    @media (max-width: 990px) {
+        padding: 5rem 10rem;
+    }
+
+
+    @media (max-width: 790px) {
+        font-size: 2.8rem;
+        padding: 3rem 7rem;
+    }
+
+    @media (max-width: 590px) {
+        font-size: 2rem;
+        padding: 3rem 5rem;
+    }
+}
+
+
+.subscribe-img {
+    position: absolute;
+
+    top: -2rem;
+    right: -2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 7.8rem;
+
+    @media (max-width: 790px) {
+        margin-top: 5rem;
+    }
+
+    @media (max-width: 590px) {
+        margin-top: 2rem;
+    }
+}
+
+.input__subscribe {
+    width: 42rem;
+    height: 6.8rem;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #39425D;
+
+    padding-left: 4.6rem;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+
+    @media (max-width: 790px) {
+        height: 5.8rem;
+    }
+
+    @media (max-width: 590px) {
+        height: 4.8rem;
+    }
+}
+
+.btn__subscribe {
+    width: 18rem;
+    height: 6.8rem;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    border-radius: 10px;
+    border: none;
+
+    margin-left: 7.4rem;
+
+
+    &:hover {
+        background: darken($color: #FF7D68, $amount: 5%);
+    }
+
+    @media (max-width: 590px) {
+        font-size: 1.4rem;
+        width: 18rem;
+        height: 4.8rem;
+    }
+}
+
+
+.subscribe__decore {
+    position: absolute;
+
+    bottom: -7rem;
+    right: -10rem;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {{> head }}
+</head>
+<body>
+
+    <div class="page">
+        <!-- Main -->
+        <main class="main">
+            <div class="section__header">
+                <header class="header container">
+                    <a href="#" class="logo">
+                        <img src="../assets/images/Logo.svg" alt="logo">
+                    </a>
+                
+                    <ul class="nav">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                Destinations
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                Hotels
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                Flights
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                Bookings
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                Login
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <button type="button" class="nav__link btn">
+                                Sign Up
+                            </button>
+                        </li>
+                        <li class="nav__item">
+                            <select name="lang" class="lang">
+                                <option value="EN">EN</option>
+                                <option value="UA">UA</option>
+                                <option value="RU">RU</option>
+                            </select>
+                        </li>
+                    </ul>
+                </header>
+            
+                <div class="hero__content container">
+                    <h3 class="tagline">Best Destinations around the world</h3>
+                    <h1 class="hero__title">Travel, enjoy
+                        and live a new
+                        and full life
+                    </h1>
+                    <p class="hero__descr">Built Wicket longer admire do barton vanity itself do in it. 
+                        Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
+                    </p>
+            
+                    <div class="content__btn">
+                        <button type="button" class="btn hero__btn">Find out more</button>
+                        <a href="#" class="play__btn">
+                            <img src="./assets/images/play-button.svg" alt="" class="play-img">
+                            Play Demo
+                        </a>
+                    </div>
+
+                    <img src="../assets/images/Traveller 1.png" alt="" class="traveller">
+                    <img src="../assets/images/plane.png" alt="plane" class="plane__over">
+                    <img src="../assets/images/plane.png" alt="plane" class="plane__under">
+                </div>
+            </div>
+            <div class="container">
+                {{> body }}
+            </div>
+        </main>
+    </div>
+
+
+    <!-- JS -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
